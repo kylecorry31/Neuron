@@ -19,7 +19,6 @@ private:
 public:
     Neuron(float fireThreshold, float degredationAmount, float refractorySeconds, float fireSeconds);
     bool Receive(float amount, float dt);
-}
-
+};
 
 #endif
